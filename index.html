@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./resources/index.css">
+     <link href="https://fonts.googleapis.com/css2?family=Metal&family=Petrona:ital,wght@0,200;0,300;0,400;1,200&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+     <!--GitHub icon by Icons8 href="https://icons8.com/icon/62856/github"-->
+     <!--Twitter icon by Icons8 href="https://icons8.com/icon/60014/twitter"-->
+    <!--Instagram icon by Icons8 href="https://icons8.com/icon/59813/instagram"-->
+    <!--Facebook icon by Icons8 href="https://icons8.com/icon/118466/facebook"-->
+    <!--Close Window icon by Icons8 href="https://icons8.com/icon/23537/close-window"--> 
+    <!--Menu icon by Icons8 href="https://icons8.com/icon/3096/menu"-->
+    <title>Portfolio</title>
+ </head>
+ <body>
+  <section class="showcase">
+    <header>
+
+      <div class="toggle"></div>
+    </header>
+    <video src="./resources/calm-lake-animated-nature-live-wallpaper.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Portfolio </h2> 
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <a href="#">Lorem</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <p>Projects</p>
+      <li><a href="./projects/nyfw/index.html" target="_blank">New York Fasion Week</a></li>
+      <li><a href="./projects/cssPractice/index.html" target="_blank">Woodruff's Blog</a></li>
+        <li><a href="./projects/Dasmoto's Arts & Crafts/index.html" target="_blank">Dasmoto's Arts & Crafts</a></li>
+            <li><a href="./projects/wineTable/index.html" target="_blank">Wine Table</a></li>
+      <li><a href="./projects/tea-cozy/index.html" target="_blank">Tea Cozy</a></li>
+    </ul>
+  </div>
+<script>
+  const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+  })
+</script>
+ </body>
+ </html>
+ 
+ 
+ 
